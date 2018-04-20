@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^home$ home.php?page=home [L]
+RewriteRule ^ticket$ home.php?page=ticket [L]
+
+Options All -Indexes

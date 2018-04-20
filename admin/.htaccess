@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteRule ^login$ index.php [L]
+RewriteRule ^home$ home.php?page=home [L]
+RewriteRule ^employes$ home.php?page=employes [L]
+RewriteRule ^allticket$ home.php?page=allticket [L]
+RewriteRule ^newticket$ home.php?page=newticket [L]
+RewriteRule ^opened$ home.php?page=opened [L]
+RewriteRule ^waiting$ home.php?page=waiting [L]
+RewriteRule ^closed$ home.php?page=closed [L]
+RewriteRule ^answer$ home.php?page=answer [L]
+RewriteRule ^unanswer$ home.php?page=unanswer [L]
+RewriteRule ^solved$ home.php?page=solved [L]
+RewriteRule ^department$ home.php?page=dpt [L]
+RewriteRule ^category$ home.php?page=cty [L]
+
+Options All -Indexes
